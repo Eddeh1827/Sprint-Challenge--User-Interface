@@ -178,7 +178,9 @@ nav ul li a {
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
 }
-
+.top-content img {
+  margin-bottom: 3%;
+}
 .top-content .text-container {
   width: 48%;
   padding: 0 1%;
@@ -254,6 +256,38 @@ nav ul li a {
 .bottom-content .text-container:last-child {
   padding-right: 0;
 }
+/*About Page*/
+.about-page .top-content .text-container {
+  width: 100%;
+}
+.about-page .middle-content {
+  display: flex;
+  flex-flow: row wrap;
+  width: 800px;
+}
+.about-page .middle-content .container2 {
+  border-bottom: 1px dashed black;
+  padding-bottom: 25px;
+}
+.about-page .middle-content {
+  border-bottom: none;
+}
+.about-page .bottom-content {
+  padding-bottom: 25px;
+}
+.about-page button {
+  border-radius: 10px;
+  margin: 10px 0px;
+  padding: 9px 32px;
+  background-color: white;
+  border: 2px solid black;
+}
+.container2 {
+  line-height: 2.5;
+  width: 350px;
+  margin: 15px auto;
+}
+/*About Page end*/
 
 footer {
   width: 100%;
