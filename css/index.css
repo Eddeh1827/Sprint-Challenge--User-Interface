@@ -65,6 +65,20 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/*Body Style*/
+
+nav ul {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
 
 .container {
     width: 800px;
